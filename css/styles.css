@@ -167,7 +167,7 @@ label {
 	line-height: 1.1;
 	letter-spacing: 0.02em;
 	max-width: 496px;
-	width: 320px;
+	/*width: 320px;*/
 }
 
 .main-button {
@@ -477,7 +477,7 @@ label {
 	text-align: center;
 	letter-spacing: 0.02em;
 	margin-bottom: 16px;
-	color: var(--caption);
+	color: var(--accent-color);
 }
 .form-label {
 	margin-bottom: 4px;
@@ -640,7 +640,7 @@ label {
 }
 @media (max-width: 397px) {
 	.subscribe-input {
-		width: 320px;
+		max-width: 320px;
 	}
 	.mobile-menu {
 		display: flex;
@@ -757,6 +757,7 @@ label {
 		line-height: 1.07;
 		font-family: Roboto;
 		width: auto;
+		max-width: 496px;
 	}
 
 	.main-button:hover,
@@ -823,6 +824,7 @@ label {
 	.subscribe-form {
 		flex-direction: row;
 		gap: 24px;
+
 	}
 }
 @media (min-width: 768px) and (max-width: 1157px) {
@@ -889,6 +891,10 @@ label {
 		padding: 188px 0;
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg.jpg");
 	}
+.main-title {
+max-width: 496px;
+}
+		
 	/* SECTION 2 */
 
 	.values-list {
