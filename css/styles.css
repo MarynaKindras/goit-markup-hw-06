@@ -560,6 +560,7 @@ label {
 	min-width: 169px;
 	height: 56px;
 	margin: 0 auto;
+	
 }
 
 /* Menu Container  */
@@ -634,6 +635,7 @@ label {
 @media (min-width: 398px) {
 	.main-title {
 		font-size: 36px;
+		max-width: 320px;
 	}
 }
 @media (max-width: 397px) {
@@ -657,6 +659,9 @@ label {
 	.modal {
 		width: 320px;
 	}
+	.address {
+		font-style: normal;
+	}
 }
 @media (max-width: 767px) {
 	.menu {
@@ -673,7 +678,7 @@ label {
 		letter-spacing: 0.02em;
 	}
 }
-@media (max-width: 1158px) {
+@media (max-width: 1157px) {
 	.icon-values,
 	.section-doing.section {
 		display: none;
@@ -990,9 +995,6 @@ label {
 	}
 	.footer-icon-text {
 		margin-bottom: 16px;
-	}
-	.footer-icon-text {
-		width: 264px;
 	}
 	.social-container {
 		margin-right: 80px;
